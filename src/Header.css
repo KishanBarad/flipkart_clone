@@ -1,0 +1,71 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+a{
+    display: inline-block;
+}
+.d-flex{
+    display: flex;
+}
+.f-l-t{
+    float: right;
+}
+.navi a{
+    text-decoration: none; 
+}
+.input-sec{
+    position: relative;
+}
+.fa-magnifying-glass{
+    position: absolute;
+    font-size: 20px;
+    color: grey;
+    left: 10px;
+    top: 10px;
+}
+.navi .fbut{
+    color: black;
+    margin-left: 10px;
+    border: 1px solid transparent;
+    margin: 0px 20px;
+}
+.navi .fa-user{
+    margin-top: 5px;
+    margin-right: 7px;
+}
+.navi input{
+    padding-right: 100px;
+}
+
+.navi .fa-cart-shopping{
+    margin-top: 5px;
+    margin-right: 7px;
+}
+.fa-store{
+    margin-top: 5px;
+    margin-right: 7px;
+}
+.fbut:hover{
+    color: brown;
+}
+.header{
+    position: sticky;
+    z-index: 2;
+    top: 0px;
+}
+.navi{
+    float: right;
+}
+.sbut{
+    padding-top: 10px;
+}
+
+
+
+@media (max-width: 1000px) {
+    .f-l-t{
+        float: unset;
+    }
+    .header{
+        position: static;
+    }
+  }

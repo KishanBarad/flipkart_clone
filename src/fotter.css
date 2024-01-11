@@ -1,0 +1,23 @@
+.fotter{
+    background: #000;
+    padding: 30px 0px;
+    margin-top: 50px;
+}
+.fotter h6{
+    margin-left: 35px;
+    color: #878787;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+.fotter ul li{
+    list-style: none;
+}
+.fotter ul li a{
+    text-decoration: none;
+    font-size: 12px;   
+    color: white;
+}
+.fotter ul li:hover{
+    text-decoration: underline;
+    color: white;
+}

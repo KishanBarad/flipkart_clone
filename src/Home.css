@@ -1,0 +1,153 @@
+/* .carousel-control-prev{
+    margin-left: -100px;
+    z-index: 3;
+} */
+/* .carousel-control-next{
+    margin-right: -100px;
+} */
+.carousel-control-prev-icon {
+    padding: 60px 20px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: black;
+}
+
+.carousel-control-next-icon {
+    padding: 60px 20px;
+    border-radius: 10px 0px 0px 10px;
+    background-color: black;
+}
+
+.carousel-control-prev {
+    justify-content: left !important;
+}
+
+.carousel-control-next {
+    justify-content: right !important;
+}
+
+.carousel-indicators {
+    visibility: hidden;
+}
+.firstcarousel img{
+   max-width: 100%;
+}
+.mid-head {
+    padding: 20px 0px;
+    margin: 0px auto;
+}
+
+.row .det {
+    text-align: center;
+}
+
+.row .det h5 {
+    padding-top: 5px;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+}
+
+.fash img {
+    margin-bottom: 5px;
+}
+
+.r-t-side {
+    margin: 10px 30px;
+}
+
+.cards {
+
+    padding: 0px 10px;
+}
+
+.box {
+    border: 1px solid black;
+}
+
+/* .owl-carousel.owl-theme.owl-loaded.owl-drag {
+    margin: 0px -10px;
+} */
+.box img {
+    width: 2500px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.box {
+    min-height: 290px;
+}
+
+.plane-side img {
+    width: 300px;
+    max-height: 400px;
+    float: right;
+}
+
+.third .th-flex {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.product {
+    padding: 10px;
+    text-align: center;
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+}
+
+.boxes {
+    border: 1px solid black;
+    min-height: 400px;
+    padding-top: 20px;
+}
+
+/* .boxes:hover{
+    background: gray;
+} */
+.product h3,
+p,
+a {
+    color: black;
+    text-decoration: none !important;
+}
+
+.boxes button {
+    border-color: transparent;
+    border-radius: 7px;
+}
+
+.boxes button:hover {
+    background: #fb641b;
+    transition: 0.3s;
+}
+
+.box {
+    padding: 0px 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.box:hover {
+    -webkit-box-shadow: 5px 16px 32px -8px rgba(222, 31, 31, 1);
+    -moz-box-shadow: 5px 16px 32px -8px rgba(222, 31, 31, 1);
+    box-shadow: 5px 16px 32px -8px rgba(222, 31, 31, 1);
+}
+
+.boxes:hover {
+    -webkit-box-shadow: 5px 16px 32px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 16px 32px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 16px 32px -8px rgba(0, 0, 0, 0.75);
+}
+
+
+
+@media (max-width: 600px) {
+    .carousel-control-prev-icon{
+        visibility: hidden;
+    }
+    .carousel-control-next-icon{
+        visibility: hidden;
+    }
+}
